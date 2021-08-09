@@ -1,0 +1,97 @@
+*,
+*:before
+*:after {
+    padding:0 ;
+    margin:0 ;
+    box-sizing: border-box;
+    width: 100vh;
+
+}
+body{
+    height: 100vh;
+   
+   
+}
+.contain {
+    border: 2px solid #ffffffee;
+    width: 40%;
+    position:absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    min-width:450px;
+    padding: 30px 40px ;
+   
+    
+
+}
+#taskman{background-color: rgba(255, 255, 255, 0.5);
+    position: relative;
+    padding: 30px 20px;
+    border-radius: 5px;
+    box-shadow: 0 15px 30px rgba(0,0,0.3);
+    font-family: 'Montserrat', sans-serif  ;
+    
+    
+}
+#input{width: 80%;
+height: 45px;
+border: 1px rgb(70, 70, 70) solid;
+padding: 12px;
+}
+.push{
+    height: 45px;
+    margin-bottom: 2px;
+    margin-left: 15px;
+}
+#taskman input :focus{
+    outline: rgb(212, 39, 39);
+    border-color: aquamarine;
+
+}
+#tasks {
+background-color: rgba(255, 255, 255, 0.5);
+padding: 30px 20px;
+margin-top: 60px;
+border-radius: 5px;
+box-shadow:0 15px 30px rgba(0,0,0,0.3);
+width:100%;
+position: relative;
+
+}
+.taskone{
+background-color: #ffffffee;
+height: 50px;
+pad: 5pv 10px;
+margin-top: 10px;
+display: flex;
+justify-content: space-between;
+border-bottom:2px solid #d1d3d4 ;
+cursor: pointer;
+font-family: 'Montserrat', sans-serif;
+font-size: 18px;
+padding: 5px;
+
+
+}
+#taskname {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    padding: 5px;
+    
+    
+}
+.taskone button{
+    height: 100%;
+}
+.completed {
+    text-decoration: line-through;
+    font-weight: 200;
+    font-style: italic;
+}
+.bg-ligh{
+    justify-content: center;
+    width: 33%;
+    margin-left: 33%;
+    background-color: rgba(256, 256, 256,0.45);
+}
